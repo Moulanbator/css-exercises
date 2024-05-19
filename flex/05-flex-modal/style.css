@@ -15,11 +15,56 @@ body {
   justify-content: center;
 }
 
+.header {
+  font-size: 18px;
+  font-weight: 600;
+}
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  justify-content: center;
+  
+}
+
+.icon {
+ 
+  display: flex;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding: 15px;
+  padding-left: 0px;
+}
+
+.left {
+  padding: 15px;
+}
+
+.topline {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.middle {
+  display: flex;
+  margin: 10x;
+  margin-left: 0px;
+}
+
+.end {
+  display: flex;
+  margin: 10px;
+  margin-left: 0px;
+  gap: 0.5em;
 }
 
 .icon {
@@ -66,4 +111,8 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.text {
+  font-size: 16px;
 }
